@@ -1,0 +1,26 @@
+.todolist_navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(186, 186, 199);
+  gap: 30px;
+}
+.todolist_navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.todolist_navigation img {
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+.navigation_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin: auto;
+}
