@@ -5,7 +5,7 @@ import "./home.style.css";
 const Home = () => {
   const router = useNavigate;
   const handleRedirect = () => {
-    router("/task");
+    router("../../features/Create");
   };
   return (
     <div className="home_main">
