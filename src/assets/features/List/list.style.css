@@ -1,0 +1,56 @@
+.list_holder {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.todo_hero_holder {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 500px;
+}
+
+.todo_hero_holder span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(38, 202, 38);
+  width: 100px;
+}
+
+.todo_hero_holder h2,
+h3 {
+  margin: 10px;
+  gap: 50px;
+}
+
+.item_holder {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.item_holder img {
+  width: 30px;
+  height: 30px;
+}
+
+.item_text {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(148, 146, 146);
+}
+
+.task_img {
+}
